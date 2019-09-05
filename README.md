@@ -14,7 +14,7 @@
 	> `cordova build --release android`
 1. align
 	> `& "$Env:ANDROID_SDK_ROOT\build-tools\29.0.2\zipalign" -v 4 app-release-unsigned.apk app-release-unsigned-aligned.apk`
-1. create keystore if needed
+1. create keystore if needed, or supply it
 	> `keytool -genkey -v -keystore keystore.jks -keyalg RSA -keysize 2048 -validity 10000 -alias suryavip`
 1. sign and verify
 	> `& "$Env:ANDROID_SDK_ROOT\build-tools\29.0.2\apksigner" sign --ks keystore.jks --out app-release.apk app-release-unsigned-aligned.apk`
