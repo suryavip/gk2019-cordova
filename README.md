@@ -31,3 +31,4 @@
 	1. multiple file
 1. push notification
 1. sharing link
+1. dynamic and deep link
