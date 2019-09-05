@@ -2,7 +2,7 @@
 
 ## Setup:
 1. add `google-services.json`
-1. Apply fixes (see `FIXES.md`)
+1. Apply fixes (see [FIXES.md](https://github.com/suryavip/gk2019-cordova/blob/master/FIXES.md))
 
 ## Before build:
 1. update app version on `config.xml`
